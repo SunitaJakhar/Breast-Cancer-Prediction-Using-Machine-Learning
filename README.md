@@ -3,7 +3,7 @@
 This analysis evaluated two powerful machine learning algorithms, Support Vector Machine (SVM) and XGBoost, for their effectiveness in classifying breast cancer as benign (0) or malignant (1) based on the provided dataset.
 
 
-# Key Findings:
+## Key Findings:
 
 1. Overall Performance (Accuracy):
     * SVM: Achieved an accuracy of approximately 0.956 on the test set.
@@ -25,7 +25,7 @@ This analysis evaluated two powerful machine learning algorithms, Support Vector
         * False Negative Rate (FNR): 3 / (3 + 40) = 0.070 (approximately 7.0%)
 
 
-# Implications for the Business/Social Problem:
+## Implications for the Business/Social Problem:
 
 * Minimizing False Negatives is Paramount: In breast cancer diagnosis, minimizing false negatives is a top priority. While both models showed high overall accuracy, XGBoost demonstrated a slightly lower False Negative Rate (7.0% vs. 9.3%) compared to SVM.
   
